@@ -3,3 +3,19 @@
 	color: black;
 }
 
+.color1{
+	color: white;
+}
+
+/*caja uno*/
+
+#caja1{
+	background-color: #181E68;
+	width: 100%;
+	height: auto;	
+}
+
+#caja1 h1{
+	font-size: 70px;
+	margin-top: 80px;
+}
