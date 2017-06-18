@@ -12,9 +12,23 @@
 }
 
 /*caja uno*/
+.navbar{
+	padding: 0 60px;
+}
+
+@media (max-width: 1024px){
+	.navbar{
+		padding: 0;
+	}
+}
+
+.navbar li:hover{
+	background-color: #DADCDB;
+}
 
 #caja1{
 	background-color: #181E68;
+	padding: 30px;
 	width: 100%;
 	height: auto;
 	margin-bottom: 40px;	
@@ -22,7 +36,19 @@
 
 #caja1 h1{
 	font-size: 70px;
-	margin-top: 80px;
+	margin-top: 90px;
+}
+
+@media (max-width: 1024px){
+	.desktop{
+		visibility: visible;
+	}
+}
+
+@media (min-width: 1024px){
+	.desktop{
+		visibility: hidden;
+	}
 }
 
 /*caja dos*/
