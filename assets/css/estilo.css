@@ -63,8 +63,34 @@
 	width: 100%;
 	height: auto;
 	padding: 50px 70px;
+}
+
+#caja5 h2{
+	color: white;	
+}
+
+#caja6 p{
 	color: white;
 }
+
+#caja7 label{
+	color: white;
+}
+
+#caja7 input{
+	font-weight: bold;
+	width: 80%;
+}
+
+#caja7 textarea{
+	width: 80%;
+	height: 20vh;
+}
+
+#caja7 .btn{
+	width: 100px;
+}
+
 
 
 
